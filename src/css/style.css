@@ -37,6 +37,7 @@ body {
 
 .aside1 {
     margin-top: -9px;
+    
 }
 
 .para1 {
@@ -117,6 +118,7 @@ body {
         left: 16px;
         font-size: 24px;
     }
+
 /* defined box3 */
     .box3 {
         display: block;
@@ -124,7 +126,7 @@ body {
 
     .list1 .list2 {
         display: block;
-        border-right: 2px solid #fff;
+        border-right: none;
         padding: 10px;
         text-align: center;
     }
@@ -160,7 +162,20 @@ body {
     position: relative;
     bottom: 16px;
 }
-   
+   .aside1
+   {
+    padding:5px;
+   }
+   .aside {
+    color: #295d81;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 8px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+}
 
 
 

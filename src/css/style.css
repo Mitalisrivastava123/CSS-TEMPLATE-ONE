@@ -1,0 +1,170 @@
+body {
+    overflow-x: hidden;
+}
+/* defined class box1 with css properties  */
+.box1 {
+    background: #b5b5b5;
+    width: 100%;
+    height: 88px;
+    margin-top: -20px;
+}
+
+.box3 {
+    display: flex;
+}
+/* Added aside class */
+.aside {
+    color: #295d81;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.maintwo {
+    width: 30%;
+    background: #cdcdcd;
+    padding: 10px;
+    margin-top: -16px;
+}
+/* Added css class box4  */
+.box4 {
+    background: #b7b7b7;
+    width: 100%;
+    height: 64px;
+    margin-top: 0px;
+}
+
+.aside1 {
+    margin-top: -9px;
+}
+
+.para1 {
+    margin-top: 0px;
+    margin-left: 84%;
+    position: relative;
+    top: 24px;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.lorem
+{
+    margin-left: 10px;
+}
+
+
+.sitetext {
+    position: relative;
+    top: 26px;
+    left: 16px;
+    font-size: 24px;
+}
+
+.page {
+    margin-left: 10px;
+    color: #124c74;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: -14px;
+}
+
+.mainone {
+    width: 66%;
+    margin: 20px;
+}
+
+
+.list1 .list2 {
+    display: inline-block;
+    border-right: 2px solid #fff;
+    padding: 10px;
+}
+
+.list1 {
+    margin-left: -38px;
+}
+
+.box2 {
+    background-color: #000;
+    color: #fff;
+    margin-top: -16px;
+
+}
+/* defined hover for a class list */
+.list2:hover {
+    background: green;
+}
+
+@media(max-width:992px) {
+    .box1 {
+        background: #b5b5b5;
+        width: 100%;
+        height: 88px;
+        margin-top: -20px;
+    }
+
+    .maintwo {
+        width: 100%;
+        background: #cdcdcd;
+        margin-top: -16px;
+        padding: 0px;
+    }
+
+    .sitetext {
+        position: relative;
+        top: 26px;
+        left: 16px;
+        font-size: 24px;
+    }
+/* defined box3 */
+    .box3 {
+        display: block;
+    }
+
+    .list1 .list2 {
+        display: block;
+        border-right: 2px solid #fff;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .box2 {
+        background-color: #000;
+        color: #fff;
+        margin-top: -16px;
+
+    }
+
+    .mainone {
+        width: 100%;
+        margin-left: 4px;
+        text-align: left;
+    }
+/* added css for paragraph */
+    .para1 {
+
+        margin-top: 0px;
+        margin-left: 49%;
+        position: relative;
+        top: 24px;
+        font-style: normal;
+        font-family: sans-serif;
+        font-size: 11px;
+    }
+   .box4
+   {
+    background: #b7b7b7;
+    width: 100%;
+    height: 64px;
+    position: relative;
+    bottom: 16px;
+}
+   
+
+
+
+
+}
+
+/* end */
